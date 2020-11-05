@@ -1,0 +1,30 @@
+<!--<Project Sdk="Microsoft.NET.Sdk.Web">-->
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+ 
+
+  <ItemGroup>
+
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.10.0" />
+
+    <PackageReference Include="EPPlus" Version="4.5.3.3" />
+
+    <PackageReference Include="HtmlToOpenXml.dll" Version="2.0.3" />
+
+    <PackageReference Include="Mail.dll" Version="3.0.19162.1801" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.0.0" />
+    <PackageReference Include="MySql.Data" Version="8.0.18" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.6.0" />
+  </ItemGroup>
+ 
+
+  <ItemGroup>
+    <Folder Include="wwwroot\uploadecpscript\" />
+  </ItemGroup>
+
+</Project>
